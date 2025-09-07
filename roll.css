@@ -1,0 +1,88 @@
+/* Universal selector to reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles for the body and fonts */
+body {
+    font-family: "Domine", serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Container for the main content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 34px;
+    text-align: center;
+}
+
+/* Styles for the main heading */
+.container h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* Styles for paragraphs */
+.container p {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+/* Styles for the form elements (inputs and textarea) */
+input, textarea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 15px auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+/* Styles for the form itself */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles for the buttons */
+.btn {
+    color: white;
+    background-color: #6a0dad;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 34px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #511675;
+}
+
+/* Styles for the background image */
+.clg {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+/* Styles for the submission message */
+.submitMsg {
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+}
